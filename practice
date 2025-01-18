@@ -1,0 +1,141 @@
+# n=10
+# m=20
+# o=n+m
+# print(o)
+
+# n,m=10,20
+# print(n+m)
+
+# a=int(input("enter a number: "))
+# print(a%2)
+
+# a=input()
+# print(type(a))
+
+# a=int(input())
+# print(type(a))
+
+# a=float(input())
+# print(type(a))
+
+# a=int(input("enetr a:"))
+# b=int(input("enter b:"))
+# print(a>=b)
+
+# a=int(input("enetr a:"))
+# b=int(input("enter b:"))
+# print((a+b)//2)
+
+# s=int(input("enter a num:"))
+# print(s**2)
+# print(s**3)
+
+# s="python is best"
+# print(s[0:9])
+# print(s[-1])
+# print(s[4:6])
+# print(s[0:6:2])
+# print(s[:6])
+# print(s[6:])
+# s="hello"
+# s1="world"
+# print(s+" "+s1)
+# print(s*3)
+# print(len(s))
+
+# s="HELLO"
+# print(s.lower())
+# s="hello"
+# print(s.upper())
+# s="$$$$$hello world$$$"
+# print(s.strip('$'))
+# print(s.replace("$","#"))
+# print(s.find("h"))
+# print(s.count("l"))
+# s="hello python lang"
+# print(s.split())
+# print(s.startswith("h"))
+# print(s.endswith("g"))
+# s=["apple","is","a","fruit"]
+# print(" ".join(s))
+
+# name="sai"
+# age=17
+# print(f"my name is {name} and age is {age}")
+# print("my name is {} and age is {}".format(name,age))
+# print("my name is %s and age is %s"%(name,age))
+# s=name+" kiran"
+# print(s)
+# print("sai" in s)
+# print("dandu" not in s)
+
+# s='''this is
+# multi
+# line'''
+# print(s)
+
+# s="python"
+# for i in s:
+#     print(i)
+
+# s=input("enter a name:")
+# print("Good afternoon",s)
+
+# name="neha"
+# date=10
+# letter=f''' Dear {name} 
+# you are selected!
+# {date}'''
+# print(letter)
+
+# s="neha  best"
+# b=s.replace(" ","")
+# print(b)
+
+# s="Dear\tharry,\nThis \'python course\' is nice .\nThanks"
+# print(s)
+
+# s="khokho"
+# s1=s[0:(len(s))//2]
+# s2=s[(len(s))//2:]
+# print(s1==s2)
+# print(s==s[::-1])
+
+# def palindrome(s):
+#     return s==s[::-1]
+# def is_symmertic(s):
+#     length=len(s)
+#     mid=length//2
+#     if length%2==0:
+#         return s[:mid]==s[mid:]
+#     else:
+#         return s[:mid]==s[mid+1:]
+# s="amaama"
+# if is_symmertic(s):
+#     print("sys")
+# else:
+#     print("not sys")
+# if palindrome(s):
+#     print("pal")
+# else:
+#     print("not pal")
+
+# s="Danduneha"
+# print(len(s))
+# c=0
+# for i in s:
+#     c+=1
+# print(c)
+# print(s.count("")-1)
+
+# s="hello world python"
+# s=s.split()
+# r=s[::-1]
+# print(" ".join(r))
+# print(" ".join(s.split()[::-1]))
+
+# rev=""
+# for i in s[::-1]:
+#     rev+=i+" "
+# rev=rev.strip()
+# print(rev)
