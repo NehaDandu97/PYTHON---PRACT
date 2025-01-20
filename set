@@ -1,0 +1,74 @@
+# empty_set=set()
+# print(empty_set)
+# st={1,2,3,4}
+# print(st)
+# construct_set=set([1,2,3,4,4])
+# print(construct_set)
+# mixed_set={1,"python",3.14}
+# print(mixed_set)
+
+# st={1,2,3,4}
+# for i in st:
+#     print(i)
+
+# st={1,2,3,4,5}
+# st.add(6)
+# print(st)
+# st.update([9,10])
+# print(st)
+
+# st={10,20,30,40}
+# st.remove(10)
+# st.discard(20)
+# st.discard(50)
+# x=st.pop()
+# st.clear()
+# print(st)
+
+# s1={1,2,3,4,100}
+# s2={10,20,30,40,100}
+# print(s1|s2)
+# print(s1.union(s2))
+
+# print(s1&s2)
+# print(s1.intersection(s2))
+
+# print(s1-s2)
+# print(s1.difference(s2))
+
+# print(s1^s2)
+# print(s1.symmetric_difference(s2))
+
+# st={1,2,3.14,"hello"}
+# st.add(100)
+# st.update([5.5,6.6])
+# st.remove(1)
+# st.discard(9)
+# x=st.pop()
+# print(x)
+# st.pop()
+# st.clear()
+# print(st)
+
+# s1={1,2,3,4,100}
+# s2={10,20,30,40,100}
+# print(s1.issubset(s2))
+# print({100}.issubset(s1))
+# print(s1.issuperset(s2))
+# print(s1.issuperset({1,2,3,4}))
+# print(s1.isdisjoint(s2))
+# print({1,2,3,4}.isdisjoint({10,20,30,40}))
+
+# frozen=frozenset([1,2,3,4,5])
+# print(frozen)
+
+# st={4,5,6}
+# print(frozen&st)
+
+# l=[1,1,2,2,3,4]
+# u=set(l)
+# print(u)
+
+# st={1,2,3,4}
+# print(1 in st)
+# print(5 in st)
