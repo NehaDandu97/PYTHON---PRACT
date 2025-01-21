@@ -1,0 +1,158 @@
+# x=10
+# if x>5:
+#     print("its greater number")
+
+
+# if 1>4:
+#     print("number is greater")
+# else:
+#     print("number is lesser")
+
+# if 1>2:
+#     print("the number is greater")
+# elif 1==1:
+#     print("equal")
+# else:
+#     print("the number is lesser")
+
+# x=15
+# if x>10:
+#     if x<20:
+#         print("x is b/w 10 and 20")
+#     else:
+#         print("x is not b/w 10 and 20")
+# else:
+#     print("x is less than 10")
+
+# x=10
+# r="x is greater than 5" if x>5 else "x is 5 or less"
+# print(r)
+
+# x=15
+# if x>10 and x<20:
+#     print("num is b/w 10 and 20")
+
+# if x>10 or x<20:
+#     print("num is greater than 10 and less then 20")
+
+# if not(x<10):
+#     print("num is not less then 10")
+
+
+# if 5==5:
+#     print("equal")
+
+# f=["apple","banana","cherry","kiwi"]
+# if "kiwi" in f:
+#     print("found")
+
+# vowels = "aeiou"
+# char = "e"
+# if char in vowels:
+#     print(f"{char} is a vowel")
+
+# numbers = [1, 2, 3, 4, 5]
+# for num in numbers:
+#     if num % 2 == 0:
+#         print(f"{num} is even")
+#     else:
+#         print(f"{num} is odd")
+
+# a=int(input("enter number : "))
+# b=int(input("enter number : "))
+# c=int(input("enter number : "))
+# d=int(input("enter number : "))
+# if a>=d and a>=c and a>=b:
+#     print("a is greater")
+# elif b>=a and b>=c and b>=d:
+#     print("b is greater")
+# elif c>=a and c>=b and c>=d:
+#     print("c is greater")
+# else:
+#     print("d is greater")
+
+# s1=float(input("enter number : "))
+# s2=float(input("enter number : "))
+# s3=float(input("enter number : "))
+# tot=300
+# tot_obt=s1+s2+s3
+# per=(tot_obt/tot)*100
+# if s1>=33 and s2>=33 and s3>=33 and per>=40:
+#     print(f"pass:{per}")
+# else:
+#     if s1<33:
+#         print("s1 fail")
+#     elif s2<33:
+#         print("s2 fail")
+#     elif s3<33:
+#         print("s3 fail")
+
+
+# mail=input("enter a mail:").lower()
+# if "make a lot of money"or "buy now" or "subscribe this" or "click this" in mail:
+#     print("spam")
+# else:
+#     print("not spam")
+
+
+# mail = input("Enter mail description: ")
+# spam_keywords = ["make a lot of money", "buy now", "subscribe this", "click this"]
+
+# if any(i in mail for i in spam_keywords):
+#     print("Spam")
+# else:
+#     print("Not Spam")
+
+# c=input("enter a name: ")
+# if len(c)<10:
+#     print("invalid")
+# else:
+#     print("valid")
+
+# name=input("enter a username:")
+# l=["neha","sai","chethu","bhavani","netha"]
+# for i in l:
+#     if name in l:
+#         print("valid")
+#         break
+#     else:
+#         print("invalid")
+#         break
+
+# name=input("enter a username:")
+# l=["neha","sai","chethu","bhavani","netha"]
+# if name in l:
+#     print("valid")
+# else:
+#     print("invalid")
+
+# marks=int(input("enter marks:"))
+# if 90 <= marks <= 100:
+#     print("Excellent")
+# elif 80 <= marks < 90:
+#     print("A")
+# elif 70 <= marks < 80:
+#     print("B")
+# elif 60 <= marks < 70:
+#     print("C")
+# elif 50 <= marks < 60:
+#     print("D")
+# else:
+#     print("F")
+
+# post=input("enter post:")
+# l=["harry","post","cse"]
+# if post in l:
+#     print("yes")
+# else:
+#     print("no")
+
+# post=input("enter post:")
+# l=["harry","post","cse"]
+# p=post.split()
+# x=any(i in l for i in p)
+# if x:
+#     print("found")
+# else:
+#     print("nope")
+
