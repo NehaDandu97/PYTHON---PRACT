@@ -1,0 +1,95 @@
+# l=["apple","banana","cherry"]
+# for i in l:
+#     print(i,end=" ")
+# t=(1,2,3,4,5)
+# for i in t:
+#     print(i)
+# s="hello"
+# s.split()
+# for i in s:
+#     print(i)
+
+
+# for i in range(6):
+#     print(i)
+# for i in range(1,6):
+#     print(i)
+# for i in range(1,6,2):
+#     print(i)
+# for i in range(0,6,2):
+#     print(i)
+
+
+# i=0
+# while(i<5):
+#     print(i)
+#     i+=1
+
+# k=5
+# while(k>-1):
+#     print(k)
+#     k-=1
+
+# for i in range(1,6):
+#     if i==4:
+#         break
+#     print(i)
+        
+# for i in range(1,6):
+#     if i==4:
+#         continue
+#     print(i)
+
+# for i in range(1,6):
+#     if i==4:
+#         pass
+#     print(i)
+
+# for i in range(1,6):
+#     print(i)
+# else:
+#     print("loop completed without a break")
+
+# i=1
+# while i<6:
+#     print(i)
+#     i+=1
+# else:
+#     print("while loop completed without a break")
+
+
+# for i in range(4):
+#     for j in range(3):
+#         print(f"i={i},j={j}")
+
+# for c in "python":
+#     print(c)
+
+# for l in [10,20,30,40]:
+#     print(l)
+
+# for t in (1,2,3,4):
+#     print(t)
+
+# d={"a":10,"b":20,"c":30}
+# for k in d:
+#     print(k)
+# for v in d.values():
+#     print(v)
+# for k,v in {"a":1,"b":2,"c":3}.items():
+#     print(k,v)
+
+# st={100,200,300,400}
+# for s in st:
+#     print(s)
+
+# while True:
+#     user=input("type 'exit' to stop ")
+#     if user=="exit":
+#         break
+
+# l=[i**2 for i in range(1,6)]
+# print(l)
+
+# l=[i**2 for i in range(1,6) if i%2==0]
+# print(l)
