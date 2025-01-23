@@ -1,0 +1,35 @@
+# def reverse():
+#     i=5
+#     while i>0:
+#         print(i,end=",")
+#         i-=1
+# reverse()
+
+# def reverse_nums(n):
+#     if n==0:
+#         return
+#     print(n)
+#     reverse_nums(n-1)
+#     print("end")
+# reverse_nums(5)
+
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#         return factorial(n-1)*n
+# print(factorial(5))
+
+# def sum_n(n):
+#     if n==0:
+#         return 0
+#     return sum_n(n-1)+n
+# print(sum_n(5))
+
+# def print_list(list,ind=0):
+#     if(ind==len(list)):
+#         return
+#     print(list[ind])
+#     print_list(list,ind+1)
+# aplha=['a','b','c']
+# print_list(aplha)
