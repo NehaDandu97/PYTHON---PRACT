@@ -1,0 +1,117 @@
+# def line_stars(n):
+#     for i in range(n):
+#         print("*",end=" ")
+# line_stars(5)
+
+# def rec_star(n):
+#     for i in range(n):
+#         print("* "*n)
+# rec_star(5)
+
+# def rec_star(n):
+#     for i in range(n):
+#         for j in range(n):
+#             print("*",end=" ")
+#         print()
+# rec_star(5)
+
+# def prov_num(n):
+#     for i in range(n):
+#         print((str(n)+" ")*n)
+# prov_num(5)
+
+# def prov_row(n):
+#     for i in range(1,n+1):
+#         print((str(i)+" " )*n)
+# prov_row(5)
+
+# def fixed_alpha(n):
+#     for i in range(n):
+#         print("A "*n)
+# fixed_alpha(5)
+
+# def rt_aplha(n):
+#     for i in range(n):
+#         print((chr(97+i)+' ')*(i+1))
+# rt_aplha(5)
+
+# def rt_aplha(n):
+#     for i in range(n):
+#         print((chr(65+i)+' ')*(i+1))
+# rt_aplha(5)
+
+# def ivrt_star(n):
+#     for i in range(n):
+#         print(("* ")*(n-i))
+# ivrt_aplha(5)
+
+# def ivrt_digits(n):
+#     for i in range(1,n):
+#         print((str(i)+" ")*(n-i))
+# ivrt_digits(5)
+
+# def invert_digits(n):
+#     for i in range(n):
+#         for j in range(n-i):
+#             print(j+1,end=" ")
+#         print()
+# invert_digits(5)
+
+# def py_digit(n):
+#     for i in range(n):
+#         print((' '*(n-i-1))+(str(i+1)+" ")*(i+1))
+# py_digit(5)
+
+# def py_aplha(n):
+#     for i in range(n):
+#         print((" "*(n-i-1))+(chr(65+i)+" ")*(i+1))
+# py_aplha(5)
+
+# def rh_diamond(n):
+#     for i in range(n):
+#         for j in range(i+1):
+#             print(chr(65+j),end=" ")
+#         print()
+#     for i in range(n-1):
+#         for j in range(n-i-1):
+#             print(chr(65+j),end=" ")
+#         print()
+# rh_diamond(5)
+
+# def invert_py(n):
+#     for i in range(n):
+#         print(" "*i,end=" ")
+#         for j in range(n-i):
+#             print(chr(65+j),end=" ")
+#         print()
+# invert_py(5)
+
+# def diamond(n):
+#     for i in range(n):
+#         print((" ")*(n-i-1)+("* ")*(i+1))
+#     for i in range(n-1):
+#         print((" ")*(i+1)+("* ")*(n-i-1))
+# diamond(5)
+
+
+# def rhalf_diamond(n):
+#     for i in range(n):
+#         print('* '*(i+1))
+#     for i in range(n-1):
+#         print('* '*(n-i-1))
+# rhalf_diamond(5)
+
+# def lhalf_diamond(n):
+#     for i in range(n):
+#         print("  "*(n-i-1)+"* "*(i+1))
+#     for i in range(n-1):
+#         print("  "*(i+1)+"* "*(n-i-1))
+# lhalf_diamond(5)
+
+# def halfhallow(n):
+#     for i in range(n):
+#         print('  '*(n-i-1)+'* ',end=" ")
+#         if i>=1:
+#             print('  '*(2*i-1)+'*',end=" ")
+#         print()
+# halfhallow(5)
